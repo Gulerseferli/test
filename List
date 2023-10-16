@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="person.css">
+  </head>
+  <body>
+
+      <div class="container">
+        <ul class="mt-5 " id="ul"> 
+           <li >
+            <div class="ic">
+              <div class="people1 d-flex bg-white" >
+               <div class="avatar "><span>GS</span></div>
+               <div class="ad">Gular Safarli</div>
+               <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button">
+                Etrafli
+               </button>
+             </div>
+             <div class="collapse" style="width: 500px;" id="button">
+               <div class="card card-body">
+                 <div class="d-flex p-1">
+                <a href="#"> <i class="fa-brands fa-instagram fa-2xl" style="color: #f31bb9; margin-left: 3px; margin-top: 7px;"></i></a><div style="margin-left: 17px; margin-top: -4px; font-size: 20px;">Instagram</div>
+               </div>
+               <div class="d-flex p-1">
+                 <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
+               </div>
+               <div class="d-flex p-1">
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                </div>
+            </div>
+           </div>
+          </div> 
+          </li>  
+
+           <li>
+            <div >
+              <div class="people1 d-flex bg-white">
+               <div class="avatar "><span style="font-size: 19px;">MM</span></div>
+               <div class="ad">Mirvari Muradova</div>
+               <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button2">
+                Etrafli
+               </button>
+             </div>
+             <div class="collapse" style="width: 500px;" id="button2">
+               <div class="card card-body">
+                 <div class="d-flex p-1">
+                <a href="#"> <i class="fa-brands fa-instagram fa-2xl" style="color: #f31bb9; margin-left: 3px; margin-top: 7px;"></i></a><div style="margin-left: 17px; margin-top: -4px; font-size: 20px;">Instagram</div>
+               </div>
+               <div class="d-flex p-1">
+                 <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
+               </div>
+               <div class="d-flex p-1">
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                </div>
+            </div>
+           </div>
+         </div>
+          </li>
+
+          <li>
+            <div >
+              <div class="people1 d-flex bg-white">
+               <div class="avatar "><span>YE</span></div>
+               <div class="ad">Yusif Ezizli</div>
+               <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button3">
+                Etrafli
+               </button>
+             </div>
+             <div class="collapse" style="width: 500px;" id="button3">
+               <div class="card card-body">
+                 <div class="d-flex p-1">
+                <a href="#"> <i class="fa-brands fa-instagram fa-2xl" style="color: #f31bb9; margin-left: 3px; margin-top: 7px;"></i></a><div style="margin-left: 17px; margin-top: -4px; font-size: 20px;">Instagram</div>
+               </div>
+               <div class="d-flex p-1">
+                 <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
+               </div>
+               <div class="d-flex p-1">
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                </div>
+            </div>
+           </div>
+         </div>
+          </li> 
+
+           <li>
+            <div >
+              <div class="people1 d-flex bg-white">
+               <div class="avatar "><span>E.</span></div>
+               <div class="ad">Elshad ...</div>
+               <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button4">
+                Etrafli
+               </button>
+             </div>
+             <div class="collapse" style="width: 500px;" id="button4">
+               <div class="card card-body">
+                 <div class="d-flex p-1">
+                <a href="#"> <i class="fa-brands fa-instagram fa-2xl" style="color: #f31bb9; margin-left: 3px; margin-top: 7px;"></i></a><div style="margin-left: 17px; margin-top: -4px; font-size: 20px;">Instagram</div>
+               </div>
+               <div class="d-flex p-1">
+                 <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
+               </div>
+               <div class="d-flex p-1">
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                </div>
+            </div>
+           </div>
+         </div>
+          </li>
+        </ul>
+  </div>
+
+
+   <style>
+   .people1{
+    position: relative;
+    height: 60px;
+    border: 2px solid #ccc;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 03px;
+ }
+
+ .avatar{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: rgb(90, 159, 96);
+ }
+
+ .avatar span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 23px;
+ }
+
+ .ad{
+    position: absolute;
+    margin-left: 70px;
+    font-size: 25px;
+    margin-top: 10px;
+ }
+
+ .btn{
+  position: absolute;
+  margin-left: 420px;  
+  margin-top: 10px ; 
+ }
+
+ ul{
+   list-style: none;
+ }
+
+ #ul{
+   border: 1px solid #ccc;
+   padding-bottom: 20px;
+   width: 560px;
+   background: whitesmoke;
+   box-shadow: 0 0 .3rem rgb(187, 185, 185);
+ }
+
+ body{
+   background: rgb(247, 235, 215);
+ }
+
+ @media(max-width:768px){
+   #ul{
+      width: 420px;
+   }
+
+   .people1{
+      width: 360px;
+   }
+
+   .btn{
+      margin-left: 280px;  
+     }
+
+     .card{
+      width: 360px;
+     }
+
+ }
+  </style>
+  </body>
+ </html>
