@@ -14,16 +14,17 @@
     <link rel="stylesheet" href="person.css">
   </head>
   <body>
+ 
+     <div class="container">
 
-      <div class="container">
         <ul class="mt-5 " id="ul"> 
            <li >
             <div class="ic">
               <div class="people1 d-flex bg-white" >
-               <div class="avatar "><span>GS</span></div>
+               <div class="avatar"><a><img id="ic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwRxISkemnN7ii2DNQktTipiQJw08y5Zw6E8HTUWuDLrlxISEwEkegIMCjCqiyHqjGrQ&usqp=CAU" alt=""></a></div>
                <div class="ad">Gular Safarli</div>
                <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button">
-                Etrafli
+                Ətraflı
                </button>
              </div>
              <div class="collapse" style="width: 500px;" id="button">
@@ -35,7 +36,7 @@
                  <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
                </div>
                <div class="d-flex p-1">
-                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname: Elisa O’Reilly</div>
                 </div>
             </div>
            </div>
@@ -43,12 +44,12 @@
           </li>  
 
            <li>
-            <div >
+            <div class="ic">
               <div class="people1 d-flex bg-white">
-               <div class="avatar "><span style="font-size: 19px;">MM</span></div>
+               <div class="avatar "><a><img  id="ic" src="https://i.pinimg.com/originals/9e/c8/76/9ec87665b769e484bd111db391795300.jpg" alt=""></a></div>
                <div class="ad">Mirvari Muradova</div>
                <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button2">
-                Etrafli
+                Ətraflı
                </button>
              </div>
              <div class="collapse" style="width: 500px;" id="button2">
@@ -60,20 +61,20 @@
                  <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
                </div>
                <div class="d-flex p-1">
-                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname: Louis Daly</div>
                 </div>
             </div>
            </div>
          </div>
-          </li>
+        </li>         
 
           <li>
-            <div >
+            <div class="ic" >
               <div class="people1 d-flex bg-white">
-               <div class="avatar "><span>YE</span></div>
+               <div class="avatar "><a href=""><img id="ic" src="https://i.pinimg.com/originals/93/a4/e4/93a4e403368aad8b4b8586cf6ed422ef.jpg" alt=""></a></div>
                <div class="ad">Yusif Ezizli</div>
                <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button3">
-                Etrafli
+                Ətraflı
                </button>
              </div>
              <div class="collapse" style="width: 500px;" id="button3">
@@ -85,7 +86,7 @@
                  <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
                </div>
                <div class="d-flex p-1">
-                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname: Zauqi  Apeldoorn</div>
                 </div>
             </div>
            </div>
@@ -93,12 +94,12 @@
           </li> 
 
            <li>
-            <div >
+            <div class="ic">
               <div class="people1 d-flex bg-white">
-               <div class="avatar "><span>E.</span></div>
-               <div class="ad">Elshad ...</div>
+               <div class="avatar "><a href=""><img id="ic" src="https://img.wattpad.com/d4d086ea09ef472e17271cb6dcbaa1f806362384/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f2d6b337842585239375046516d513d3d2d3630333434343434302e313534313266333362333565623936323635373238323632393235312e6a7067?s=fit&w=720&h=720" alt=""></a></div>
+               <div class="ad">Elshad Oruclu</div>
                <button class="btn btn-success " type="button" data-toggle="collapse" data-target="#button4">
-                Etrafli
+                Ətraflı
                </button>
              </div>
              <div class="collapse" style="width: 500px;" id="button4">
@@ -110,18 +111,18 @@
                  <a href=""><i class="fa-brands fa-facebook fa-2xl " style="color: #2066df; margin-top: 34px; margin-bottom: 7px;"></i></a><div style="margin-left: 17px; margin-top: 18px; font-size: 20px;">facebook</div>
                </div>
                <div class="d-flex p-1">
-                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname:none</div>
+                 <i class="fa-solid fa-file-signature fa-2xl" style="color: #3da93f; margin-left: 3px;  margin-top: 33px;"></i><div class="" style="font-size: 20px; margin-top: 16px; margin-left: 10px;">nickname: Senan Gillies</div>
                 </div>
             </div>
            </div>
          </div>
           </li>
         </ul>
-  </div>
+        
+  </div> 
 
-
-   <style>
-   .people1{
+  <style>
+  .people1{
     position: relative;
     height: 60px;
     border: 2px solid #ccc;
@@ -196,6 +197,24 @@
      }
 
  }
+
+  .ic a img{
+      width: 40px;
+       height: 40px;
+        border-radius: 50%;
+         margin-top: -2px;
+          border: 1px solid green;
+   }
+
+  .ic a:hover img{
+     width: 50px;
+     height: 50px;
+     margin-top: -8px;
+     margin-left: -4px;
+     transition: .2s;
+  }
   </style>
+  
+    
   </body>
  </html>
